@@ -145,7 +145,7 @@ Inicio
 
 fimfuncao
 
-procedimento consulta_clientes()
+procedimento consulta_passageiro()
 inicio
 
    para i de 1 ate limite faca
@@ -239,7 +239,7 @@ inicio
          limpatela
          escreval("=-=-=-=-=-=-= CONSULTA PASSAGEIROS =-=-=-=-=-=-=")
          escreval ("")
-         consulta_clientes()
+         consulta_passageiro()
 
       caso "4"
          limpatela
