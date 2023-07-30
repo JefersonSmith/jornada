@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
@@ -100,39 +106,40 @@
             <span class="visually-hidden">Próximo</span>
         </button>
     </div>
+    <!-- Fim do Carrossel de Imagens -->
 
     <!--Busca de Passagens -->
     <div class="container row mx-auto justify-content-center barra-busca my-3">
         <div class="row p-1">
             <form>
                 <div class="row">
-                    <div class="form-group col-md-2 ">
+                    <div class="form-group col-md-3 ">
                         <label>Passagens</label>
-                        <input type="text" class="form-control"  placeholder="Origem">
+                        <input type="text" class="form-control" placeholder="Origem">
                     </div>
-                    <div class="form-group col-md-2">
+                    <div class="form-group col-md-3">
                         <label>&nbsp;</label>
-                        <input type="text" class="form-control"  placeholder="Destino">
+                        <input type="text" class="form-control" placeholder="Destino">
                     </div>
                     <div class="form-group col-md-2">
                         <label><i class=" fa fa-fw fa-calendar-times"></i> Ida:</label>
-                        <input type="date" class="form-control"  placeholder="Destino">
+                        <input type="date" class="form-control" placeholder="Destino">
                     </div>
                     <div class="form-group col-md-2">
                         <label><i class=" fa fa-fw fa-calendar-times"></i> Volta:</label>
-                        <input type="date" class="form-control"  placeholder="Destino">
+                        <input type="date" class="form-control" placeholder="Destino">
                     </div>
                     <div class="form-group col-md-2">
                         <label for="inputState"><i class="fa fa-user"></i> Passageiros</label>
-                        <select id="inputState" class="form-control">
+                        <select class="form-control">
                             <option>1 Adulto</option>
                             <option>2 Adultos</option>
                             <option>1 Adulto + 1 Criança</option>
                             <option>2 Adultos + 1 Criança</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-1">
-                        <label for="inputCity"><i class="bi bi-airplane"></i></label>
+                    <div class="form-group mt-2">
+                        <label><i class="bi bi-airplane"></i></label>
                         <button type="submit" class="btn btn-dark botao-laranja">Buscar</button>
                     </div>
                 </div>
@@ -355,26 +362,26 @@
 
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
             <div class="facilidades d-flex">
-                <div><i class="verde-limao bi bi-coin fs-1"></i></div>
+                <div><i class="laranja bi bi-coin fs-1"></i></div>
                 <div>
-                    <div class="ms-3 mb-1 verde-limao">PAGUE PELO PIX</div>
+                    <div class="ms-3 mb-1 laranja">PAGUE PELO PIX</div>
                     <div class="fonte-menor ms-3">Ganhe 5% OFF em
                         pagamentos via PIX.</div>
                 </div>
             </div>
 
             <div class="facilidades d-flex">
-                <div><i class="verde-limao bi bi-arrow-repeat fs-1"></i></div>
+                <div><i class="laranja bi bi-arrow-repeat fs-1"></i></div>
                 <div>
-                    <div class="ms-3 mb-1 verde-limao">CANCELAMENTO GRÁTIS</div>
+                    <div class="ms-3 mb-1 laranja">CANCELAMENTO GRÁTIS</div>
                     <div class="fonte-menor ms-3">Fique livre para CANCELAR em até 30 dias antes da viagem.</div>
                 </div>
             </div>
 
             <div class="facilidades d-flex">
-                <div><i class="verde-limao bi bi-flower3 fs-1"></i></div>
+                <div><i class="laranja bi bi-flower3 fs-1"></i></div>
                 <div>
-                    <div class="ms-3 mb-1 verde-limao">SUSTENTABILIDADE</div>
+                    <div class="ms-3 mb-1 laranja">SUSTENTABILIDADE</div>
                     <div class="fonte-menor ms-3">É um programa de sustentabilidade para empresas de turismo, com o
                         objetivo de
                         melhorar o impacto ambiental e social.</div>
@@ -391,9 +398,9 @@
 
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
             <div class="facilidades d-flex">
-                <div><i class="verde-limao bi bi-airplane fs-1"></i></div>
+                <div><i class="laranja bi bi-airplane fs-1"></i></div>
                 <div>
-                    <div class="ms-3 mb-1 verde-limao">COMO FUNCIONA A JORNADA?</div>
+                    <div class="ms-3 mb-1 laranja">COMO FUNCIONA A JORNADA?</div>
                     <div class="fonte-menor ms-3">Na Jornada, estamos comprometidos em tornar suas viagens memoráveis.
                         Nossa agência oferece um serviço completo, que inclui a seleção cuidadosa dos melhores destinos,
                         acomodações de qualidade e opções de transporte convenientes. Além disso, nossos especialistas
@@ -407,9 +414,9 @@
             </div>
 
             <div class="facilidades d-flex">
-                <div><i class="verde-limao bi bi-bag-check fs-1"></i></div>
+                <div><i class="laranja bi bi-bag-check fs-1"></i></div>
                 <div>
-                    <div class="ms-3 mb-1 verde-limao">É SEGURO COMPRAR NA JORNADA?</div>
+                    <div class="ms-3 mb-1 laranja">É SEGURO COMPRAR NA JORNADA?</div>
                     <div class="fonte-menor ms-3">Sim, sua segurança é uma prioridade para nós. Na Jornada, adotamos
                         medidas
                         rigorosas para proteger suas informações pessoais e financeiras. Utilizamos tecnologias de
@@ -424,9 +431,9 @@
             </div>
 
             <div class="facilidades d-flex">
-                <div><i class="verde-limao bi bi-arrow-counterclockwise fs-1"></i></div>
+                <div><i class="laranja bi bi-arrow-counterclockwise fs-1"></i></div>
                 <div>
-                    <div class="ms-3 mb-1 verde-limao">É POSSÍVEL ALTERAR OU CANCELAR UMA COMPRA?</div>
+                    <div class="ms-3 mb-1 laranja">É POSSÍVEL ALTERAR OU CANCELAR UMA COMPRA?</div>
                     <div class="fonte-menor ms-3">Sim, entendemos que planos de viagem podem mudar. Na Jornada,
                         oferecemos
                         flexibilidade para alterações e cancelamentos, sempre que possível. No entanto, é importante

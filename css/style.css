@@ -23,6 +23,10 @@
     font-size: 14px;
 }
 
+h2 {
+    font-family: "roboto", sans-serif;
+}
+
 .facilidades {
     width: 325px;
 }
@@ -33,6 +37,10 @@
 
 .botao-laranja {
     background-color: #F0941F;
+}
+
+.laranja {
+    color: #F0941F;
 }
 
 .verde-limao {
