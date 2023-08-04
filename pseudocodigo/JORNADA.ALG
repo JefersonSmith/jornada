@@ -124,11 +124,11 @@ Inicio
 
       escreva ("Digite a Cidade: ")
       leia (cidade[i])
-      valor<- valor[i]
+      cidade<- cidade[i]
 
       escreva ("Digite o valor: ")
       leia (valor[i])
-      cidade<- cidade[i]
+      valor<- valor[i]
 
       escreval(" Destino cadastrado")
       escreval()
