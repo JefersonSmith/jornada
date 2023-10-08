@@ -1,3 +1,9 @@
+:root {
+    --laranja: #F0941F;
+    --verde-limao: #DAFF01;
+    --branco: white;
+}
+
 .logo {
     width: 166px;
     margin-top: -10px;
@@ -10,21 +16,29 @@
     border-radius: 25px;
     font-weight: bolder;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color: white;
+    color: var(--branco);
     width: 90%;
 
   }
 
 .titulo-busca{
-    color: white;
+    color: var(--branco);
 }
   
 .fonte-menor {
     font-size: 14px;
 }
 
+.cardh {
+    transition: all 0.3s;
+}
+
+.cardh:hover {
+    transform: scale(1.15);
+}
+
 h2 {
-    font-family: "roboto", sans-serif;
+    font-family: monospace;
 }
 
 .facilidades {
@@ -36,16 +50,48 @@ h2 {
 }
 
 .botao-laranja {
-    background-color: #F0941F;
+    background-color: var(--laranja);
 }
 
 .laranja {
-    color: #F0941F;
+    color: var(--laranja);
 }
 
 .verde-limao {
-    color: #DAFF01;
+    color: var(--verde-limao);
 }
+
+
+/* efeito de escrever */
+.escrevendo {
+    margin: auto;
+    font-family: monospace;
+    width: 14ch;
+    border-right:4px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 3.5s steps(29) infinite alternate, piscando 0.5s infinite step-end alternate;
+}
+
+@keyframes digitando{
+    0%{
+        width: 0;
+    }
+    80%, 100%{
+        width: 29ch;
+    }
+
+}
+
+@keyframes piscando{
+    50%{
+        border-color: transparent;
+    }
+}
+
+
+
+/* fim do efeito de escrever */
 
 @media(min-width: 768px) {
 
@@ -55,6 +101,8 @@ h2 {
 
 }
 
+
+
 /* Paleta de Cores
 /* Color Theme Swatches in Hex */
 .Colliding-Power-1-hex { color: #000000; }
@@ -62,3 +110,13 @@ h2 {
 .Colliding-Power-3-hex { color: #90A19D; }
 .Colliding-Power-4-hex { color: #F0941F; }
 .Colliding-Power-5-hex { color: #EF6024; }
+
+/* testes */
+
+@media(max-width: 1200px) {
+   
+    .tamanho {
+        width: 50%;
+    }
+
+}
