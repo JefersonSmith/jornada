@@ -20,5 +20,12 @@ Usando HTML / CSS / BOOTSTRAP:
     As páginas devem ser responsivas ou adaptáveis. 
     Faça as formatações de acordo com a paleta de cores escolhida. 
 
+2ª Entrega:
+Front-end 
+
+ 
+Atualizar a versão anterior do site, refatorando se preciso as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo de dados usando HTML, CSS Bootstrap. 
+Faça as formatações de acordo com a paleta de cores escolhida. 
+
  
 
