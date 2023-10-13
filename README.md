@@ -27,5 +27,7 @@ Front-end
 Atualizar a versão anterior do site, refatorando se preciso as páginas: Home, Destino, Promoções, Contato e as demais de acordo com seu modelo de dados usando HTML, CSS Bootstrap. 
 Faça as formatações de acordo com a paleta de cores escolhida. 
 
+Nesta entrega eu adicionei alguns efeitos aos cards na tela principal, melhorei o rodapé e também criei um novo menu de login, lá nós temos a tela de login, recuperar senha e cadastrar um novo usuário.
+
  
 
